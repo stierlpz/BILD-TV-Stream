@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+    <html lang="de" class="no-js">
+    <!--[77204148/20/1628851071000]-->
+<head>
+        <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script type="text/javascript">
+            
+/*switchw_mobil:56683488.8*/
+
+(function () {
+    var host = window.location.host.split('.').slice(0, -1).join('.');
+    var uaEqGoogleMobile = /Mobile.*GoogleBot/i.test(navigator.userAgent);
+    var redirect = function (current, target, hash) {
+        if (window.location.hostname !== target) {
+            window.redirectInPlace = true;
+            var t = window.location.href.replace(current, target);
+            t = t.indexOf(".bild.html") === -1 ? t.replace(".bildMobile.html", ".bild.html") : t.replace(".bild.html", ".bildMobile.html");
+            if (t.indexOf("###wt_ref") === -1) t += hash;
+            window.location.href = t;
+        }
+    };
+    var cookieSwitchName = [];
+    var hash = '';
+    window.redirectInPlace = false;
+    if (window.location.hash.toLowerCase().indexOf('cvd') === -1 && ["www.preview.bildcms.de", "m.preview.bildcms.de"].indexOf(window.location.hostname) === -1 && ['m.bild', 'www.bild'].indexOf(host) > -1) {
+        document.cookie = "mobileSwitch=wap; path=/; domain=.bild.de; expires=Thu, 01 Jan 1970 00:00:01 GMT;";
+        cookieSwitchName = document.cookie.split(";").map(function (cookieValue) {
+            return cookieValue.split("=")[0].trim();
+        });
+        hash = '###wt_ref=' + encodeURIComponent(document.referrer?document.referrer:document.location.href) + '&wt_t=' + Date.now();
+        if (cookieSwitchName.indexOf("noDesktop") > -1) {
+            redirect("www.bild.de", "m.bild.de", hash);
+        } else if (cookieSwitchName.indexOf("noMobile") > -1) {
+            redirect("m.bild.de", "www.bild.de", hash);
+        } else {
+            if (window.matchMedia('(max-width: 767px)').matches && !uaEqGoogleMobile) {
+                redirect("www.bild.de", "m.bild.de", hash);
+            } else {
+                redirect("m.bild.de", "www.bild.de", hash);
+            }
+        }
+    }
+})();</script>
+        <title>
+	BILD im TV - der erste Fernsehsender, der live Schlagzeilen macht  -
+	Bild.de</title>
+<meta name="keywords" content="Hier spricht das Volk,livestream" /><meta name="description" content="BILD kommt ins Fernsehen. Wir liefern jederzeit die neuesten Schlagzeilen und die besten Dokumentationen. Jetzt im Live-TV oder in unserem Online-Stream." /><meta name="news_keywords" content="Hier spricht das Volk, livestream" /><meta name="robots" content="index, follow, noarchive" /><link rel="search" title="BILD.de" href="/opensearch.xml" type="application/opensearchdescription+xml" />
+
+<link rel="canonical" href="https://www.bild.de/tv/mediathek/livestream/startseite-77204148.bild.html" />
+
+<link rel="shortcut icon" href="https://bilder.bild.de/fotos/bild-de-28103320/Bild/8.bild.ico"/>
+    <link rel="apple-touch-icon" href="https://bilder.bild.de/fotos/bild-de-35605834/Bild/3.bild.png"/>
+    <meta name="format-detection" content="telephone=no" /><link rel="alternate" title="Bild.de" href="https://www.bild.de/rss-feeds/rss-16725492,feed=home.bild.html" type="application/rss+xml" />
+
+<meta name="twitter:site" content="@Bild">
+            <meta name="twitter:creator" content="@Bild">
+            <meta name="twitter:card" content="summary">
+                <meta property="fb:app_id" content="144384252320756"/>
+		<meta property="fb:admins" content="501487474,100000905792367, 526282432"/>
+		<meta property="fb:pages" content="25604775729,249486648419440,170146969676385,307588406912,251146681614268,318906105227644,192877127721890,477992875719345,874089902723968,165558873485781,1218829934867738,254398318045001,300846653286577,310262629336705,1401509983204500,611525722371273,129552460421987,1707407819576325,245130465844084,1300401809987628,1736687193249196,179106715439031,138954249497669,119193118474126,139060219459334,458687374327951,296616832456,283175684345,151827394874968,279842624351,164152390314374,1563296323920339,1509725495934022,1801627363485538,1454989824524479,159917570099,1210461622326600,628631770560217,386917668174744,1690884471172838,325090448651,112204002149514,185399374838010,326109970765,465299850197443,232045430607612,424131831017077,153994374617455,1556917707939425,128879350482285,477819210036,191500460889083,589099804445427,103026823072095,133736863364368,184957074870577,193611710678825,236598816419292,1056961057687077,460868724108269,1735001436772911,1698156947103500,132848933779385,741372929333130,253364778343959,258764701125354,995010773855192,462777527262899,443071815902831,1258693447492234,514480732077535,1682485108706857,1156212021065222,228990437151193,474557329413627,222793764745612,563215687180392,934381933348735,442665416102803,1755585981341138,117753848864011,119750025327225,849112008599697,137925413442411"/>
+		<meta property="og:title" content="BILD im TV - der erste Fernsehsender, der live Schlagzeilen macht"/>
+			<meta property="og:image" content="https://bilder.bild.de/fotos-skaliert/bild-logo-35166394/45,c=0,h=200.bild.png"/>
+		<style>
+@font-face{font-family:'Gotham XNarrow';src:url(//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/assets/fonts/gotham/21A46BAE2B5D0CF5D.woff2) format("woff2"),url(//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/assets/fonts/gotham/21A46BAE2B5D0CF5D.woff) format("woff");font-weight:400;font-style:normal;font-display:fallback}@font-face{font-family:'Gotham Cond';src:url(//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/assets/fonts/gotham/B6699C503D96A9BC1.woff2) format("woff2"),url(//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/assets/fonts/gotham/B6699C503D96A9BC1.woff) format("woff");font-weight:700;font-style:normal;font-display:fallback}@font-face{font-family:'Gotham';src:url(//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/assets/fonts/gotham/8B8182E2BA0464F45.woff2) format("woff2"),url(//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/assets/fonts/gotham/8B8182E2BA0464F45.woff) format("woff");font-weight:800;font-style:normal;font-display:fallback}@font-face{font-family:'Gotham Cond';src:url(//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/assets/fonts/gotham/3FF86ACA2E0D4CD65.woff2) format("woff2"),url(//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/assets/fonts/gotham/3FF86ACA2E0D4CD65.woff) format("woff");font-weight:600;font-style:normal;font-display:fallback}@font-face{font-family:'Gotham XNarrow';src:url(//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/assets/fonts/gotham/D7632D565C85109A8.woff2) format("woff2"),url(//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/assets/fonts/gotham/D7632D565C85109A8.woff) format("woff");font-weight:700;font-style:normal;font-display:fallback}@font-face{font-family:'icomoon';src:url(//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/assets/fonts/icomoon/icomoon.woff2) format("woff2"),url(//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/assets/fonts/icomoon/icomoon.woff) format("woff"),url(//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/assets/fonts/icomoon/icomoon.ttf) format("truetype");font-weight:400;font-style:normal;font-display:block}.tsr-img,.tsr-img.portrait,.tsr-img.quad{display:block;position:relative;height:0}.tsr-img>.photo,.tsr-img.portrait>.photo,.tsr-img.quad>.photo{display:block;position:absolute;width:100%;height:100%;top:0;margin:0;padding:0}.lead{margin-bottom:.75em}.module:last-of-type,article{margin-bottom:1.25em}.module,.lead .col,.lead .tsr4,article{background:#fff}.content>section:before,.content aside>section:before,.content article:before,.module:before,.faux:before,.hentry:before,article:before,.content>section:after,.content aside>section:after,.content article:after,.module:after,.faux:after,.hentry:after,article:after{content:"";display:table}.content>section:after,.content aside>section:after,.content article:after,.module:after,.faux:after,.hentry:after,article:after{clear:both}dfn,.vh,.nocontent{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.module .hint{font-size:1rem;color:#787878;line-height:1.4;text-align:center;padding:24px 0;border-bottom:1px solid #b5b5b5}@media (min-width:37.5em){.module .hint{font-size:1rem}}@media (min-width:80.0625em){.module .hint{font-size:1.125rem}}*,:before,:after{-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}html{font-size:16px;font-family:"Gotham XNarrow","Avenir Next Condensed",sans-serif-condensed,"Arial Narrow","Arial Nova",sans-serif;line-height:1.4;height:100%;color:#000;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}@media only screen and (orientation:landscape),(orientation:portrait){html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}}body{margin:0;min-height:100%;overflow-x:hidden}article,aside,details,figcaption,figure,footer,header,nav,main,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}a{color:inherit;text-decoration:underline;-webkit-tap-highlight-color:rgba(69,69,69,.6)}a:focus{color:#787878;outline:thin dotted}a:active{color:#787878;outline:none}a:hover{color:#db0000;cursor:pointer}a:hover,a:active{outline:0}h1,h2,h3,h4,h5,h6{margin:0;line-height:1.4}abbr{cursor:pointer;text-decoration:none}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}blockquote{margin:1em 2.5em}dfn{font-style:italic}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}.underline{text-decoration:underline}dl,menu,ol,ul{margin:0 0 1em;list-style-type:none}li{list-style:none}dd{margin:0 0 0 2.5em}.nrlist li{margin-left:1.25em;list-style-type:decimal}.dtlist li{margin-left:1.25em;list-style-type:disc}nav ul,nav ol{margin:0;padding:0;list-style:none}img{display:block;border:0;vertical-align:bottom;max-width:100%;height:auto}figure{margin:0}svg:not(:root){overflow:hidden}::-moz-selection{background:#000;color:#fff}::selection{background:#000;color:#fff}fieldset{border:0;margin:0}legend{border:0;padding:0}label{font-size:1.3125rem;color:#000;line-height:1.35;display:block;line-height:1.05}@media (min-width:80.0625em){label{line-height:2rem}}label,button,input[type=button],input[type=submit],input[type=reset]{cursor:pointer}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal;vertical-align:middle}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button;border-radius:0;background-image:none}input[hidden]{display:none}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}input[type=search]{-webkit-box-sizing:content-box;box-sizing:content-box}button::-moz-focus-inner,input[type=reset]::-moz-focus-inner,input[type=button]::-moz-focus-inner,input[type=submit]::-moz-focus-inner,input[type=file]>input[type=button]::-moz-focus-inner{border:0;padding:0;margin:0}input[type=radio]{vertical-align:text-bottom}input[type=checkbox]{vertical-align:bottom}textarea{overflow:auto;vertical-align:top;resize:none}table{border-collapse:collapse;border-spacing:0;width:100%}iframe{border:none}.hidden{display:none!important;visibility:hidden}.remove-vh{height:auto;overflow:visible;position:static;width:auto}.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus,.nocontent.focusable:active,.nocontent.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.invisible{visibility:hidden}@media (max-width:80em){.hide-on-mobile{display:none!important}}@media (min-width:80.0625em){.hide-on-desktop{display:none!important}}.masthead{height:2.9375em;border-bottom:2px solid rgba(0,0,0,.1);background-color:rgba(255,255,255,.97);position:relative;top:0;left:0;right:0;z-index:6502;width:100%;text-align:center;-webkit-transition:-webkit-transform 500ms ease;transition:-webkit-transform 500ms ease;transition:transform 500ms ease;transition:transform 500ms ease,-webkit-transform 500ms ease;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.csspositionsticky .masthead{position:-webkit-sticky;position:sticky;-webkit-transform:translateZ(0);transform:translateZ(0)}@media (orientation:landscape){.csspositionsticky .masthead{position:relative}}.csspositionsticky .js-nav .masthead{position:fixed}@media (orientation:landscape){.csspositionsticky .js-nav .masthead{position:relative}}.masthead.fixed{position:fixed}@media (orientation:landscape){.masthead.fixed{position:relative}}.js-nav .masthead{-webkit-transform:translate3d(250px,0,0);transform:translate3d(250px,0,0)}@media screen and (min-width:37.5em),(orientation:landscape){.masthead{position:relative}}@media (min-width:60em){.masthead{position:relative}}.sticky-banner{max-height:475px;overflow:hidden;-webkit-transition:-webkit-transform 500ms ease;transition:-webkit-transform 500ms ease;transition:transform 500ms ease;transition:transform 500ms ease,-webkit-transform 500ms ease;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.js-nav .sticky-banner{-webkit-transform:translate3d(250px,0,0);transform:translate3d(250px,0,0)}@media screen and (min-width:37.5em),(orientation:landscape){.js-nav .sticky-banner{width:calc(100% - 250px)}}.nav-btn{border:0;color:#454545;position:absolute;top:0;left:0;padding:.375em;background-color:transparent;-webkit-appearance:none;-moz-appearance:none}.nav-btn:focus,.nav-btn:hover{color:#454545;outline:none}.nav-btn span{font-size:1rem;display:inline-block;font-family:"Gotham XNarrow","Avenir Next Condensed",sans-serif-condensed,"Arial Narrow","Arial Nova",sans-serif;font-weight:700;vertical-align:middle}@media (min-width:80.0625em){.nav-btn span{font-size:1.125rem}}.nav-btn svg{vertical-align:middle}.nav-btn svg path{fill:#454545}.nav-btn:hover svg path,.nav-btn:focus svg path{fill:#787878}.no-touch .nav-btn:hover:before,.no-touch .nav-btn:hover span{color:#787878}.logo{display:inline-block;margin:0 auto;text-align:center;border-bottom:0}.logo img{max-height:55px}.masthead__shortlink{position:absolute;top:0;right:0;max-width:35%;text-align:right}.masthead__shortlink .icon{font-size:1rem;color:#454545;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-weight:700;line-height:1;height:3em;text-decoration:underline;-webkit-text-decoration-skip:ink;text-decoration-skip:ink;padding:0 .75rem}.masthead__shortlink .icon:hover{color:#db0000}@media (min-width:80.0625em){.masthead__shortlink .icon{font-size:1.125rem}}.masthead__shortlink [class*=icon-uni]::before{margin-left:.5em;text-decoration:none;-webkit-text-decoration:underline solid rgba(255,255,255,.97);text-decoration:underline solid rgba(255,255,255,.97)}main{background-color:#fff;padding-top:12px;padding-bottom:36px;max-width:62.8125em;margin:0 auto;-webkit-transition:-webkit-transform 500ms ease;transition:-webkit-transform 500ms ease;transition:transform 500ms ease;transition:transform 500ms ease,-webkit-transform 500ms ease;position:relative;z-index:1}.js-nav main{-webkit-transform:translate3d(250px,0,0);transform:translate3d(250px,0,0)}.aside .cmp-replacement{width:100%}.module.module-alt{-webkit-box-shadow:none;box-shadow:none;background:0 0}.warning{overflow:hidden}.warning p{background:#fff;padding:24px;color:#db0000}.warning p a{color:#db0000;text-decoration:underline;font-weight:700}.element{padding-bottom:2rem;clear:both;position:relative;margin-left:-18px;margin-right:-18px}@media (min-width:37.5em){.element{margin-left:0;margin-right:0}}.element .gallery{margin-bottom:0}@media screen and (min-width:37.5em),(orientation:landscape){.txt .element{margin-left:auto;margin-right:auto}}@media screen and (min-width:600px),(orientation:landscape){.element.floatL{width:41.6666666667%;clear:right;float:left;padding-left:6px;padding-right:6px;clear:left;padding:0;margin-bottom:18px;margin-right:36px;margin-left:0}}@media (min-width:80.0625em){.element.floatL{width:50%;clear:right;float:left;padding-left:6px;padding-right:6px;clear:left;padding:0;margin-top:6px;margin-left:-144px;margin-right:36px}}.element.element--full{margin-left:-18px;margin-right:-18px}@media (min-width:37.5em){.element.element--full{margin-left:-72px;margin-right:-72px}}@media (min-width:80.0625em){.element.element--full{margin-right:-144px;margin-left:-144px}}@media (max-width:37.5em){.element .misc{margin-left:18px;margin-right:18px}}.element>.credit{padding-left:0;display:inline-block}.element>.cmp-related-content.element,.element--full>.cmp-related-content.element{margin-left:0;margin-right:0}.content.s12>.cmp-related-content.element{margin-left:0;margin-right:0}.element+header{margin-top:12px}header+.element{margin-top:0}.s1{width:8.3333333333%;clear:right;float:left;padding-left:6px;padding-right:6px}.s2{width:16.6666666667%;clear:right;float:left;padding-left:6px;padding-right:6px}.s3{width:25%;clear:right;float:left;padding-left:6px;padding-right:6px}.s4{width:33.3333333333%;clear:right;float:left;padding-left:6px;padding-right:6px}.s5{width:41.6666666667%;clear:right;float:left;padding-left:6px;padding-right:6px}.s6{width:50%;clear:right;float:left;padding-left:6px;padding-right:6px}.s7{width:58.3333333333%;clear:right;float:left;padding-left:6px;padding-right:6px}.s8{width:66.6666666667%;clear:right;float:left;padding-left:6px;padding-right:6px}.s9{width:75%;clear:right;float:left;padding-left:6px;padding-right:6px}.s10{width:83.3333333333%;clear:right;float:left;padding-left:6px;padding-right:6px}.s11{width:91.6666666667%;clear:right;float:left;padding-left:6px;padding-right:6px}.s12{width:100%;clear:right;float:right;padding-left:6px;padding-right:6px}.grid50,.grid33,.grid25,.grid20,.grid6633{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left:-3px;margin-right:-3px}@media (min-width:37.5em){.grid50,.grid33,.grid25,.grid20,.grid6633{margin-left:-6px;margin-right:-6px}}.grid50>.col,.grid33>.col,.grid25>.col,.grid20>.col,.grid6633>.col,.grid50>.misc,.grid33>.misc,.grid25>.misc,.grid20>.misc,.grid6633>.misc{-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;width:1px;margin:0 3px}@media (min-width:37.5em){.grid50>.col,.grid33>.col,.grid25>.col,.grid20>.col,.grid6633>.col,.grid50>.misc,.grid33>.misc,.grid25>.misc,.grid20>.misc,.grid6633>.misc{margin:0 6px}}.grid50.nomargin,.nomargin.grid33,.nomargin.grid25,.nomargin.grid20,.nomargin.grid6633{margin:0}.grid50.nomargin>.col,.nomargin.grid33>.col,.nomargin.grid25>.col,.nomargin.grid20>.col,.nomargin.grid6633>.col,.grid50.nomargin>.misc,.nomargin.grid33>.misc,.nomargin.grid25>.misc,.nomargin.grid20>.misc,.nomargin.grid6633>.misc{margin:0}.grid50.grid--option,.grid--option.grid33,.grid--option.grid25,.grid--option.grid20,.grid--option.grid6633{display:block;margin-left:0;margin-right:0}@media (min-width:37.5em){.grid50.grid--option,.grid--option.grid33,.grid--option.grid25,.grid--option.grid20,.grid--option.grid6633{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-line-pack:start;align-content:flex-start;margin-left:-6px;margin-right:-6px}}.grid50.grid--option>.col,.grid--option.grid33>.col,.grid--option.grid25>.col,.grid--option.grid20>.col,.grid--option.grid6633>.col,.grid50.grid--option>.misc,.grid--option.grid33>.misc,.grid--option.grid25>.misc,.grid--option.grid20>.misc,.grid--option.grid6633>.misc{width:auto;-webkit-box-flex:1;-ms-flex:auto;flex:auto;margin:0;padding-bottom:9px}@media (min-width:37.5em){.grid50.grid--option>.col,.grid--option.grid33>.col,.grid--option.grid25>.col,.grid--option.grid20>.col,.grid--option.grid6633>.col,.grid50.grid--option>.misc,.grid--option.grid33>.misc,.grid--option.grid25>.misc,.grid--option.grid20>.misc,.grid--option.grid6633>.misc{-webkit-box-flex:0;-ms-flex:0 1 50%;flex:0 1 50%;width:1px;width:50%;padding-left:6px;padding-right:6px;margin:0}}.grid6633>.col:first-child{-webkit-box-flex:2;-ms-flex:2 1 auto;flex:2 1 auto}.grid6633>.col{-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto}.tsr-img{clear:both;padding-bottom:56.25%;width:100%;background:#ededed no-repeat 50%;background-image:url(data:image/gif;base64R0lGODlhFAAUAPYAAKampsHBwff399TU1JKSktPT06mpqZOTk6ioqL6+vvv7+4SEhPr6+q2traCgoNbW1tXV1aqqqrW1tXd3d+Dg4MDAwMnJyZiYmMvLy/b29qysrPn5+crKyra2tt/f36GhoZeXl5aWlr+/v8zMzLu7u729vZ+fn6urq5SUlPj4+LS0tKenp/X19be3t5WVlaKioqSkpLKyst7e3sjIyJ2dnZ6enrOzs/z8/MPDw5ycnJubm66urt3d3ZGRkZmZmeHh4aOjo5qamri4uMLCwv///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUEY/eHBhY2tldENCMThBNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowMjBDMTgwN0NFMUNwYWNrZXQgZW5kPSJyIj8+ACH5BAUAAAAALAAAAAAUABQAAAetgACCg4MgIISIiYMTE4qEMhQ3hIyEGTU5hBQPMpKClIIZOgsvhDcym52foQs1KYimqACUqyauibAUso01C7WOADcUuSAhADkvtr/KhA8Wzs8PhBoE1NUaA8/PENLV1SfL4IIMFhwAIgEAMSrJiQwzJCMADQ0AHQ4xG4ruJBwK8vQbbDiwkY/QPgv+/gkKOLCgIAwkEA6aN4hhB0IWMCQURLGiCgnLOoYbVAHHr0AAIfkEBQAAAAAsAAAAABQAFAAAB6SAAIKDgxQUhIiJgw8PioQDEIiMhCwHBIQQFgOEk4IsPRMXiAWai40AnxMoAomkmwCTqauOAxaRkyiqrI4AEJGGAAQXu7zFhBgkycoYhB8Lz9AfHMrKHM3Q0cbaghsJIgAqLQAIEcUbJQ1DAA4OABoECCmO6CIM6+0ABvDyiOgJ9vcG6TPAT1CFBv8GsRuUQp8GQgkqABS0kGGEE8YqbhskQQivQAAh+QQFAAAAACwAAAAAFAAUAAAHrIAAgoODEBCEiImDFhaKhBYYCo+NgzcyMoQYJBaSgoyVPA8UhAoWm52fADehMjeIpacAn6sPHq6JsBiyjTK1t4oKGLqGADIUv47JiAENzc4BhCAT09QgIs7OFdHU1CHK34QpNioAEQ0AOSYZySkxDi0ABAQALws5Aoob7iob8fMpNRbQSKTPAT9B8gSloCEQkQQHNvohnDeI4QtCNiRInIjIgYNvCcEhOrEjWSAAIfkEBQAAAAAsAAAAABQAFAAAB6SAAIKDgxgYhIiJgyQkioQJAQyEjIQKAwWEFQ0JkoKUggoFFhCEDAmbnZ+hFgOJpqgAlKutiq8BsY0DrI6CDAG3hgAFD7zFii0OycothBQPz9AUKsrKEs3Q0cbaggIGEQAmLwAEKCzFKwQNAAsLABcTBBmKKQgE3+vtAgfw8oT0BAYGseO270A/QScAEhooKMO+C4QMnEDEsKELF8YqbhPkAAavQAAh+QQFAAAAACwAAAAAFAAUAAAHqoAAgoODAQGEiImDDQ2KhDYdG4SMhAwWM4QSDjaSgpSCDDMkGIQbNpudn6EkFgqIpqgAlKscromwHbKNFiS1jgAbHbkBFQAzGLa/ypMEzc6NgxAW09QQEc7OJ4TS1NMQy+CCGTUmACgXADIeN78ZOQtAABMTABQPMuyJAu8mKfL0N2Tcyzdo34Ia/v4JCjiQ0IeDCRUuFEiBEI0PESUu9OBh2bxwiEIE+RUIACH5BAUAAAAALAAAAAAUABQAAAesgACCg4MdHYSIiYMODoqEBhqIjIQbCSWEJwQGhJOCGyUNAYQpCJqLjQCfDQkMiKSmAJOqIq2JKQYEkZMJDbSOACkakR0SACUBtb/KhC8Lzs8vhBgk1NUYJs/PqILT1dQYy+GCLAcoAB4UAAUDCr8sPRM+AA8PABAWBe2JGQQTKALz6gEYgG9fv3+C6A0iOABRiAkHACYUKIggBEIHQkiciGjARWUKxRGi8ONXIAAh+QQFAAAAACwAAAAAFAAUAAAHqYAAgoODGhqEiImDBASKhDUfKYSMhCk2MYQfCzSSgpSCKTEOHYg0m52foQ4qG4mmNZKUqqyOpi8AlCqrrY4AHx8AGicAMS28vciEFxPMzReEAQ3S0wEozc0u0NPTFcnegjcyHgADDwAzHAy94Q8UABYWABgkM+qJ7B437/EKFiQWChCxk6Fvn6B+/wIOovCA4CB4gxBiICSDQkFBECNy4JAs47dBEMw5CgQAIfkEBQAAJgAsAAAAABQAFAAAB6eAJoKDgx8fhIiJgwsLioQHIAKEjIQCBgiEIRMHkoKUggIABBqEGQSbnZ+hBAaJpqgmlKsRjhkHExexjQYEtI4mGSAgJoYmCA2/yYoUD83OFIQdDtPUHR7Ozh7R1NQSyt+CCgMDJhwYJiUiG78KBRYPJiQkJgENJY7tFuTx8wwJDQkYIMq3j58gfwAFDoKgj5C8QQgDEBoAAdFDiBUqKLsIbhCHEb8CAQA7)}.tsr-img.portrait{padding-bottom:118.75%;width:100%}.tsr-img.quad{padding-bottom:100%;width:100%}.hentry{padding:.375rem 0 0}.lead .hentry{padding:0}.kicker{font-size:.875rem;font-family:"Gotham XNarrow","Avenir Next Condensed",sans-serif-condensed,"Arial Narrow","Arial Nova",sans-serif;font-weight:400;line-height:1.1;color:#db0000;display:block;text-transform:uppercase;overflow:hidden;position:relative;word-wrap:break-word}@media (min-width:37.5em){.kicker{font-size:1.125rem}}@media (min-width:80.0625em){.kicker{font-size:1.25rem}}.headline{font-size:1.375rem;font-family:"Gotham Cond","HelveticaNeue-CondensedBold","Helvetica Neue","Franklin Gothic",sans-serif-condensed,"Arial Narrow","Arial Nova",sans-serif;font-weight:600;display:block;line-height:1;word-wrap:break-word}@media (min-width:37.5em){.headline{font-size:2rem}}@media (min-width:80.0625em){.headline{font-size:2.25rem}}@media (min-width:37.5em){.headline{margin-bottom:3px}}.content section:first-of-type .lead .tsr1,.content section:first-of-type .lead .tsr10,.content section:first-of-type .lead .teaser--tsr12,.content section:first-of-type .lead .teaser--tsr13,.content section:first-of-type .lead .teaser--tsr14{margin-left:-6px;margin-right:-6px}.content section:first-of-type .lead .tsr1 .entry-title,.content section:first-of-type .lead .tsr10 .entry-title,.content section:first-of-type .lead .teaser--tsr12 .entry-title,.content section:first-of-type .lead .teaser--tsr13 .entry-title,.content section:first-of-type .lead .teaser--tsr14 .entry-title{padding-left:6px;padding-right:6px}.svg-bild-logo>svg{vertical-align:bottom}.mainnav{opacity:0;overflow:hidden;position:fixed;top:0;bottom:0;left:0;width:250px;-webkit-transition:-webkit-transform 500ms ease;transition:-webkit-transform 500ms ease;transition:transform 500ms ease;transition:transform 500ms ease,-webkit-transform 500ms ease;-webkit-transform:translate3d(-250px,0,0);transform:translate3d(-250px,0,0)}article{padding:12px}@media (min-width:37.5em){article{padding:18px 72px}}@media (min-width:80.0625em){article{padding:24px 144px}}article>header{padding-bottom:12px}@media (min-width:37.5em){article>header{padding-bottom:24px}}@media (min-width:80.0625em){article>header{margin-left:-144px;margin-right:-144px}}#cover .kicker{font-size:1rem;font-family:"Gotham","Avenir Next","Helvetica Neue","Arial Narrow","Arial Nova",sans-serif;color:#db0000;display:block;text-align:center;text-transform:uppercase;line-height:1.2;overflow:visible;margin-bottom:6px}@media (min-width:37.5em){#cover .kicker{font-size:1.125rem}}@media (min-width:80.0625em){#cover .kicker{font-size:1.25rem}}#cover .headline{font-family:"Gotham Cond","HelveticaNeue-CondensedBold","Helvetica Neue","Franklin Gothic",sans-serif-condensed,"Arial Narrow","Arial Nova",sans-serif;font-stretch:condensed;text-align:center;font-size:3rem;font-weight:800;display:block}@media (min-width:37.5em){#cover .headline{font-size:4.5rem;margin-bottom:6px}}@media (min-width:80.0625em){#cover .headline{font-size:6.25rem;margin-bottom:12px}}@media (min-width:37.5em){#cover .headline{margin-bottom:12px}}#cover .headline>*{font-weight:900}.subhead{font-size:1.5rem;font-family:"Gotham Cond","HelveticaNeue-CondensedBold","Helvetica Neue","Franklin Gothic",sans-serif-condensed,"Arial Narrow","Arial Nova",sans-serif;font-weight:700;line-height:1;color:#000;text-align:center;padding-top:6px}@media (min-width:37.5em){.subhead{font-size:2rem}}@media (min-width:80.0625em){.subhead{font-size:2.25rem}}@media (min-width:37.5em){.subhead{padding-top:0}}.tsr-mfb figcaption{font-size:1rem;line-height:1.25rem;font-weight:700;color:#000;display:block;margin-top:12px;padding-bottom:0;padding-left:18px;padding-right:18px}@media screen and (min-width:37.5em),(orientation:landscape){.element--full .tsr-mfb figcaption{padding-left:72px;padding-right:72px}}@media (min-width:80.0625em){.element--full .tsr-mfb figcaption{padding-left:144px;padding-right:144px}}@media (min-width:37.5em){.tsr-mfb figcaption{font-size:1rem;line-height:1.375rem}}@media (min-width:80.0625em){.tsr-mfb figcaption{font-size:1.125rem;line-height:1.5rem}}.hentry>a{display:block;border-bottom:0}.entry-title{float:right}.socialbar,.breakingnews{opacity:0}
+</style>
+<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/sass/master.css" media="all">
+<noscript><link rel="stylesheet" href="//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/sass/master.css"></noscript>
+<link rel="stylesheet" href="/code/extra,77205074.11-47266346.1676-60347388.1-59579080.5-53174196.4-62154052.6-62455084.2-62577702.5-66268394.3-67015950.4-67044876.2-67173118.14-71277518.2-73172194.12-73715594.2-73926208.2-75183022.4-75231596.2-76214010.8-77017138.6-77163506.4-77205066.12-17538306.218-46059146.129-59982238.6-62575316.4-61934176.4-71383052.18-72042546.2-75971548.2-56687666.1.bild.css"/>
+            <script type="text/javascript">
+				!function () { var e = function () { var e, t = "__tcfapiLocator", a = [], n = window; for (; n;) { try { if (n.frames[t]) { e = n; break } } catch (e) { } if (n === window.top) break; n = n.parent } e || (!function e() { var a = n.document, r = !!n.frames[t]; if (!r) if (a.body) { var i = a.createElement("iframe"); i.style.cssText = "display:none", i.name = t, a.body.appendChild(i) } else setTimeout(e, 5); return !r }(), n.__tcfapi = function () { for (var e, t = arguments.length, n = new Array(t), r = 0; r < t; r++)n[r] = arguments[r]; if (!n.length) return a; if ("setGdprApplies" === n[0]) n.length > 3 && 2 === parseInt(n[1], 10) && "boolean" == typeof n[3] && (e = n[3], "function" == typeof n[2] && n[2]("set", !0)); else if ("ping" === n[0]) { var i = { gdprApplies: e, cmpLoaded: !1, cmpStatus: "stub" }; "function" == typeof n[2] && n[2](i) } else a.push(n) }, n.addEventListener("message", (function (e) { var t = "string" == typeof e.data, a = {}; try { a = t ? JSON.parse(e.data) : e.data } catch (e) { } var n = a.__tcfapiCall; n && window.__tcfapi(n.command, n.version, (function (a, r) { var i = { __tcfapiReturn: { returnValue: a, success: r, callId: n.callId } }; t && (i = JSON.stringify(i)), e.source.postMessage(i, "*") }), n.parameter) }), !1)) }; "undefined" != typeof module ? module.exports = e : e() }();
+			</script>
+			<script>
+				window._sp_ = {
+					config: {
+						accountId: 75,
+						consentLanguage: "de",
+						baseEndpoint: "https://cmp2.bild.de",
+						propertyId: 6804,
+						events: {
+							onMessageReceiveData: function(data){ window.__cmp_onMessageReceiveData = data }
+						}
+					}
+				}
+				window.__bild__cmp_config = {
+					privacyManagerId: 134074,
+					propertyId: 6804,
+					socialPurposeId: "5e8b11c3ebdb0627ecca27a4"
+				};
+			</script>
+			<script async src="https://cmp2.bild.de/wrapperMessagingWithoutDetection.js"></script>
+		<script type="text/javascript" src="https://a.bildstatic.de/red-cmp-0.44.2.min.js"></script>
+				<link rel="stylesheet" href="https://a.bildstatic.de/red-cmp-components-0.44.2.min.css" />
+			<script>
+/*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+!function(a){"use strict";a.loadCSS||(a.loadCSS=function(){});var b=loadCSS.relpreload={};if(b.support=function(){var b;try{b=a.document.createElement("link").relList.supports("preload")}catch(a){b=!1}return function(){return b}}(),b.bindMediaToggle=function(a){function b(){a.media=c}var c=a.media||"all";a.addEventListener?a.addEventListener("load",b):a.attachEvent&&a.attachEvent("onload",b),setTimeout(function(){a.rel="stylesheet",a.media="only x"}),setTimeout(b,3e3)},b.poly=function(){if(!b.support())for(var c=a.document.getElementsByTagName("link"),d=0;d<c.length;d++){var e=c[d];"preload"!==e.rel||"style"!==e.getAttribute("as")||e.getAttribute("data-loadcss")||(e.setAttribute("data-loadcss",!0),b.bindMediaToggle(e))}},!b.support()){b.poly();var c=a.setInterval(b.poly,500);a.addEventListener?a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}):a.attachEvent&&a.attachEvent("onload",function(){b.poly(),a.clearInterval(c)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:a.loadCSS=loadCSS}("undefined"!=typeof global?global:this),/*! modernizr 3.5.0 (Custom Build) | MIT *
+ * https://modernizr.com/download/?-csspositionsticky-fontface-geolocation-localstorage-sessionstorage-touchevents-setclasses !*/
+!function(a,b,c){function d(a,b){return typeof a===b}function e(){var a,b,c,e,f,g,h;for(var i in k)if(k.hasOwnProperty(i)){if(a=[],b=k[i],b.name&&(a.push(b.name.toLowerCase()),b.options&&b.options.aliases&&b.options.aliases.length))for(c=0;c<b.options.aliases.length;c++)a.push(b.options.aliases[c].toLowerCase());for(e=d(b.fn,"function")?b.fn():b.fn,f=0;f<a.length;f++)g=a[f],h=g.split("."),1===h.length?m[h[0]]=e:(!m[h[0]]||m[h[0]]instanceof Boolean||(m[h[0]]=new Boolean(m[h[0]])),m[h[0]][h[1]]=e),j.push((e?"":"no-")+h.join("-"))}}function f(a){var b=n.className,c=m._config.classPrefix||"";if(o&&(b=b.baseVal),m._config.enableJSClass){var d=new RegExp("(^|\\s)"+c+"no-js(\\s|$)");b=b.replace(d,"$1"+c+"js$2")}m._config.enableClasses&&(b+=" "+c+a.join(" "+c),o?n.className.baseVal=b:n.className=b)}function g(){return"function"!=typeof b.createElement?b.createElement(arguments[0]):o?b.createElementNS.call(b,"http://www.w3.org/2000/svg",arguments[0]):b.createElement.apply(b,arguments)}function h(){var a=b.body;return a||(a=g(o?"svg":"body"),a.fake=!0),a}function i(a,c,d,e){var f,i,j,k,l="modernizr",m=g("div"),o=h();if(parseInt(d,10))for(;d--;)j=g("div"),j.id=e?e[d]:l+(d+1),m.appendChild(j);return f=g("style"),f.type="text/css",f.id="s"+l,(o.fake?o:m).appendChild(f),o.appendChild(m),f.styleSheet?f.styleSheet.cssText=a:f.appendChild(b.createTextNode(a)),m.id=l,o.fake&&(o.style.background="",o.style.overflow="hidden",k=n.style.overflow,n.style.overflow="hidden",n.appendChild(o)),i=c(m,a),o.fake?(o.parentNode.removeChild(o),n.style.overflow=k,n.offsetHeight):m.parentNode.removeChild(m),!!i}var j=[],k=[],l={_version:"3.5.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(a,b){var c=this;setTimeout(function(){b(c[a])},0)},addTest:function(a,b,c){k.push({name:a,fn:b,options:c})},addAsyncTest:function(a){k.push({name:null,fn:a})}},m=function(){};m.prototype=l,m=new m,m.addTest("geolocation","geolocation"in navigator),m.addTest("localstorage",function(){var a="modernizr";try{return localStorage.setItem(a,a),localStorage.removeItem(a),!0}catch(a){return!1}});var n=b.documentElement,o="svg"===n.nodeName.toLowerCase(),p=l._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];l._prefixes=p,m.addTest("csspositionsticky",function(){var a="position:",b="sticky",c=g("a"),d=c.style;return d.cssText=a+p.join(b+";"+a).slice(0,-a.length),-1!==d.position.indexOf(b)});var q=l.testStyles=i;m.addTest("touch",function(){var c;if("ontouchstart"in a||a.DocumentTouch&&b instanceof DocumentTouch)c=!0;else{var d=["@media (",p.join("touch-enabled),("),"heartz",")","{#modernizr{top:9px;position:absolute}}"].join("");q(d,function(a){c=9===a.offsetTop})}return c});var r=function(){var a=navigator.userAgent,b=a.match(/w(eb)?osbrowser/gi),c=a.match(/windows phone/gi)&&a.match(/iemobile\/([0-9])+/gi)&&parseFloat(RegExp.$1)>=9;return b||c}();r?m.addTest("fontface",!1):q('@font-face {font-family:"font";src:url("https://")}',function(a,c){var d=b.getElementById("smodernizr"),e=d.sheet||d.styleSheet,f=e?e.cssRules&&e.cssRules[0]?e.cssRules[0].cssText:e.cssText||"":"",g=/src/i.test(f)&&0===f.indexOf(c.split(" ")[0]);m.addTest("fontface",g)}),m.addTest("sessionstorage",function(){var a="modernizr";try{return sessionStorage.setItem(a,a),sessionStorage.removeItem(a),!0}catch(a){return!1}}),e(),f(j),delete l.addTest,delete l.addAsyncTest;for(var s=0;s<m._q.length;s++)m._q[s]();a.Modernizr=m}(window,document),Array.prototype.find||Object.defineProperty(Array.prototype,"find",{value:function(a){if(null==this)throw TypeError('"this" is null or not defined');var b=Object(this),c=b.length>>>0;if("function"!=typeof a)throw TypeError("predicate must be a function");for(var d=arguments[1],e=0;e<c;){var f=b[e];if(a.call(d,f,e,b))return f;e++}},configurable:!0,writable:!0}),Array.prototype.includes||Object.defineProperty(Array.prototype,"includes",{value:function(a,b){if(null==this)throw new TypeError('"this" is null or not defined');var c=Object(this),d=c.length>>>0;if(0===d)return!1;for(var e=0|b,f=Math.max(e>=0?e:d-Math.abs(e),0);f<d;){if(c[f]===a)return!0;f++}return!1}}),function(){"use strict";function a(a){var b=this.constructor;return this.then(function(c){return b.resolve(a()).then(function(){return c})},function(c){return b.resolve(a()).then(function(){return b.reject(c)})})}function b(a){return Boolean(a&&"undefined"!=typeof a.length)}function c(){}function d(a,b){return function(){a.apply(b,arguments)}}function e(a){if(!(this instanceof e))throw new TypeError("Promises must be constructed via new");if("function"!=typeof a)throw new TypeError("not a function");this._state=0,this._handled=!1,this._value=void 0,this._deferreds=[],k(a,this)}function f(a,b){for(;3===a._state;)a=a._value;return 0===a._state?void a._deferreds.push(b):(a._handled=!0,void e._immediateFn(function(){var c=1===a._state?b.onFulfilled:b.onRejected;if(null===c)return void(1===a._state?g:h)(b.promise,a._value);var d;try{d=c(a._value)}catch(a){return void h(b.promise,a)}g(b.promise,d)}))}function g(a,b){try{if(b===a)throw new TypeError("A promise cannot be resolved with itself.");if(b&&("object"==typeof b||"function"==typeof b)){var c=b.then;if(b instanceof e)return a._state=3,a._value=b,void i(a);if("function"==typeof c)return void k(d(c,b),a)}a._state=1,a._value=b,i(a)}catch(b){h(a,b)}}function h(a,b){a._state=2,a._value=b,i(a)}function i(a){2===a._state&&0===a._deferreds.length&&e._immediateFn(function(){a._handled||e._unhandledRejectionFn(a._value)});for(var b=0,c=a._deferreds.length;b<c;b++)f(a,a._deferreds[b]);a._deferreds=null}function j(a,b,c){this.onFulfilled="function"==typeof a?a:null,this.onRejected="function"==typeof b?b:null,this.promise=c}function k(a,b){var c=!1;try{a(function(a){c||(c=!0,g(b,a))},function(a){c||(c=!0,h(b,a))})}catch(a){if(c)return;c=!0,h(b,a)}}var l=setTimeout;e.prototype.catch=function(a){return this.then(null,a)},e.prototype.then=function(a,b){var d=new this.constructor(c);return f(this,new j(a,b,d)),d},e.prototype.finally=a,e.all=function(a){return new e(function(c,d){function e(a,b){try{if(b&&("object"==typeof b||"function"==typeof b)){var h=b.then;if("function"==typeof h)return void h.call(b,function(b){e(a,b)},d)}f[a]=b,0===--g&&c(f)}catch(a){d(a)}}if(!b(a))return d(new TypeError("Promise.all accepts an array"));var f=Array.prototype.slice.call(a);if(0===f.length)return c([]);for(var g=f.length,h=0;h<f.length;h++)e(h,f[h])})},e.resolve=function(a){return a&&"object"==typeof a&&a.constructor===e?a:new e(function(b){b(a)})},e.reject=function(a){return new e(function(b,c){c(a)})},e.race=function(a){return new e(function(c,d){if(!b(a))return d(new TypeError("Promise.race accepts an array"));for(var f=0,g=a.length;f<g;f++)e.resolve(a[f]).then(c,d)})},e._immediateFn="function"==typeof setImmediate&&function(a){setImmediate(a)}||function(a){l(a,0)},e._unhandledRejectionFn=function(a){"undefined"!=typeof console&&console&&console.warn("Possible Unhandled Promise Rejection:",a)};var m=function(){if("undefined"!=typeof self)return self;if("undefined"!=typeof window)return window;if("undefined"!=typeof global)return global;throw new Error("unable to locate global object")}();"Promise"in m?m.Promise.prototype.finally||(m.Promise.prototype.finally=a):m.Promise=e}(),String.prototype.includes||(String.prototype.includes=function(a,b){"use strict";if(a instanceof RegExp)throw TypeError("first argument must not be a RegExp");return void 0===b&&(b=0),this.indexOf(a,b)!==-1});/*!
+ @ignore;
+ */
+var de=de||{};de.bild=de.bild||{},de.bild.env={base:"//code.bildstatic.de",scriptBase:"//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/js",scriptPath:"/7.9.6-cats-release--21.09/min/targets/bild/mobile/js",scriptBaseCore:"//code.bildstatic.de/7.9.6-cats-release--21.09/min/core/js",scriptPathCore:"/7.9.6-cats-release--21.09/min/core/js",cssBase:"//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/css",cssPath:"/7.9.6-cats-release--21.09/min/targets/bild/mobile/css",sassBase:"//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/sass",sassPath:"/7.9.6-cats-release--21.09/min/targets/bild/mobile/sass",cssPackagesBase:"//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/packages/css",cssPackagesPath:"/7.9.6-cats-release--21.09/min/targets/bild/mobile/packages/css",componentsBase:"//code.bildstatic.de/7.9.6-cats-release--21.09/min/core/components",componentsPath:"/7.9.6-cats-release--21.09/min/core/components",jsonBaseCore:"//code.bildstatic.de/7.9.6-cats-release--21.09/min/core/json",jsonPathCore:"/7.9.6-cats-release--21.09/min/core/json",assetsBase:"//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/assets",assetsPath:"/7.9.6-cats-release--21.09/min/targets/bild/mobile/assets",domainName:"bild.de",hostname:"m.bild.de",wapDomain:"m.bild.de",tenantName:"bild",don:"https://don.bild.de",home:"//m.bild.de",meinKonto:"https://meinkonto.bild.de",domain:"bild.de",client:"bildMobile.html",clientStat:".bild.html",stationaryHost:"//www.bild.de",callingName:"Bild.de",facebookAppId:"78193590860",facebookAudiencePixelId:"612808475476506",jsonAPIUrl:"//json.bild.de/servlet/json/ios/",platform:"mobile",awFallbackUrl:"/wa/ll/bild-de/unangemeldet-42925516.bildMobile.html",newsletterUrl:"//www.bild.de/corporate-site/newsletter/bild-service/newsletter-44536448.bild.html"},de.bild.testing&&de.bild.testing.modifier&&(de.bild.env=de.bild.testing.modifier("env",de.bild.env));/*!
+ @ignore;
+ */
+var de=de||{};de.bild=de.bild||{},de.bild.settings=function(){var a={modular1723:de.bild.env.home+"/modular1723.html"};return{urls:a}}();var de=de||{};de.bild=de.bild||{},de.bild.user=function(){"use strict";function a(a){var b;return(b=new RegExp("(?:^|; )"+encodeURIComponent(a)+"=([^;]*)").exec(document.cookie))?decodeURIComponent(b[1]):null}function b(a){for(var b=0;b<k.clubs.length;b++)if(k.clubs[b]===a)return!0;return!1}function c(){var b=a(k.cookieName);if(b){var c=new RegExp(/~id=:?([^~]*[^:~]):?~/),d=new RegExp(/~data=u=([^&~]*)[&~]/),e=c.exec(b);k.clubs=[],null!=e&&(k.clubs=e[1].split(":"));var f=d.exec(b);f&&f.length&&(f=f[1],k.ssoID=f,f&&""!==f&&"UNKNOWN"!==f&&(k.loggedIn=!0))}}function d(){var b=j.UNKNOWN;if(k.loggedIn){var c="1"===a(l.comActive),d=i("bildplus"),e=i("bildsmart");b=c||d||e?c?d&&!e?j.BUYER+"/"+j.COM:d&&e?j.BUYER+"/"+j.COM+"/"+j.SMART:!d&&e?j.BUYER+"/"+j.COM+"/"+j.SMARTONLY:j.COM:d&&!e?j.BUYER:d&&e?j.BUYER+"/"+j.SMART:j.BUYER+"/"+j.SMARTONLY:j.USER}return b}function e(){}function f(){return void 0===window.SmartAdServerASMI||window.SmartAdServerASMI.toString().length<500}function g(){return m===!1&&(m={elemHidden:!1,saDisabled:f()},m.ba=m.elemHidden||m.saDisabled),m}function h(){var a=g();return"D/"+(a.elemHidden?"true":"false")+"/S/"+(a.saDisabled?"true":"false")}function i(a){var c=!1,d=!1;try{c=de.bild.cmsKonfig}catch(a){}return c?(c.clubs&&b(c.clubs[a])&&(d=!0),d):void console.error("cmsKonfig not available right here!")}var j={BUYER:"kaeufer",SMART:"bildsmart",SMARTONLY:"bildsmartonly",USER:"eingeloggt",COM:"community",UNKNOWN:"gast"},k={clubs:[],loggedIn:!1,cookieName:"vauth",ssoID:""},l={comActive:"CommunityActive"};c();var m=!1;return{init:function(){e()},reInit:function(){k.loggedIn=!1,c()},isLoggedIn:function(){return k.loggedIn},isFreeUser:function(){return k.loggedIn&&(!k.clubs||k.clubs.indexOf("BDE1000351")===-1)},getUserClubs:function(){return k.clubs},userHasClub:function(a){return b(a)},userHasClubWithName:function(a){return i(a)},getTrackingInfo:function(){return d()},getSSOID:function(){return k.ssoID},ocbDown:function(){return"UNKNOWN"===k.ssoID},getAbData:function(){return g()},getAbDataString:function(){return h()}}}(),de.bild.autoLogin=function(a,b){"use strict";function c(a){return(document.cookie.match("(^|; )"+a+"=([^;]*)")||0)[2]}function d(a,b){var c=new Date;c.setTime(c.getTime()+1e3*e.expireSeconds);var d="; expires="+c.toGMTString();return document.cookie=a+"="+b+";path="+e.cookiePath+";domain="+e.domain+d,!0}if(!a||!b)return!1;var e={autologinUrl:b.don+"/gw/"+encodeURIComponent(encodeURIComponent(document.location.href)),cookieName:"autoLogin",autoLoginCookie:"donState",expireSeconds:60,aiValue:"li:true",cookiePath:"/",domain:"."+b.domain};a.isLoggedIn()||a.ocbDown()||decodeURIComponent(c(e.autoLoginCookie))!==e.aiValue?d(e.cookieName,null):"1"!==c(e.cookieName)?(d(e.cookieName,"1"),window.location.href=e.autologinUrl):(d(e.cookieName,null),d(e.autoLoginCookie,null))}(de.bild.user,de.bild.env);var de=de||{};de.bild=de.bild||{},de.bild.tracking=de.bild.tracking||{},de.bild.tracking.rem={remCallback:function(a){if(de.bild.events&&a){var b=!1,c=!1;try{b=a.data.user_group_actions.cms_snippet.parameter,c=!!a.data.user_group_actions.cms_snippet.exclude_home,c=c||!!String(b).match(/,excludehome\./i)}catch(a){}!b||c&&de.bild.cmsKonfig.additional.isHome||de.bild.events.publish("initModule",["ubrPopup",b])}}};var de=de||{};de.bild=de.bild||{},de.bild.events=function(){function a(){}var b=de.bild.queue=de.bild.queue||{};return b.events={},{publish:function(a,c){return de.bild.events.isInitialized&&de.bild.events.isInitialized()?de.bild.events.publish(a,c):(b.events.publish=b.events.publish||[],void b.events.publish.push({topic:a,args:c}))},subscribe:function(a,c,d){return de.bild.events.isInitialized&&de.bild.events.isInitialized()?de.bild.events.subscribe(a,c,d):(b.events.subscribe=b.events.subscribe||[],void b.events.subscribe.push({topic:a,callback:c,getLastPublish:d}))},unsubscribe:a,getNameSpacedEvents:a,getSubscribers:a,getRecentPublished:a,createNewEventManager:a}}();var de=de||{};de.bild=de.bild||{},de.bild.env=de.bild.env||{},de.bild.env.adlibLoaded=!!window.ASCDP,de.bild.env.adlibLoaded||window.addEventListener("adlibLoaded",function(){de.bild.env.adlibLoaded=!0});
+</script>
+<script async src="//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/packages/js/asyncCore.js"></script>
+<script type="text/javascript"  >
+                    
+/*de.bild.abTesting.experiments:38627088.125*/
+
+var de = de || {};
+de.bild = de.bild || {};
+de.bild.abTesting = de.bild.abTesting || {};
+de.bild.abTesting.experiments = {
+    teaserLayouts: {
+        active: false,
+        props: [1 / 3, 1 / 3, 1 / 3],
+        method: 'subscribe',
+        subscribe: 'startTeaserLayoutTest',
+        once: function () {
+            return true;
+        },
+        preCondition: function () {
+            return true; //false
+        },
+        actions: {
+            A: function () {
+                var $elem = document.currentScript ? jQuery(document.currentScript) : jQuery('script').last();
+                if (!$elem.length) {
+                    return;
+                }
+                var $block = $elem.closest('section');
+                var $prevBlock = $block.prev();
+                $block.remove();
+                //Tracking
+                $prevBlock.on('click', '.hentry', function () {
+                    var index = $(this).index() + 1;
+                    de.bild.events.publish('de.bild.mobile.clickTracking', [false, {
+                        webtrekk: {
+                            linkId: 'home-teaser-layout',
+                            customClickParameter: {
+                                26: '##CONTENTID##',
+                                5: 'click/teaser/' + index
+                            },
+                            trackOnNextPage: true
+                        }
+                    }]);
+                    // Tealium Event
+                    de.bild.events.publish('dataLayerEventTracking', ['click', {
+                        click_name: 'home-teaser-layout',
+                        ab_experiments_home_teaser: 'click/teaser/' + index
+                    }]);
+                });
+            },
+            B: function () {
+                var $elem = document.currentScript ? jQuery(document.currentScript) : jQuery('script').last();
+                if (!$elem.length) {
+                    return;
+                }
+                var $block = $elem.closest('section');
+                var $prevBlock = $block.prev();
+                var $teaser = $prevBlock.find('.tsr7');
+                var $module;
+                $teaser.removeClass('tsr7').addClass('tsr3');
+                $teaser.find('.entry-content').remove();
+                $teaser.each(function (i) {
+                    i = i + 1;
+                    if (i % 2 === 0) {
+                        $module.find('.col:nth-child(2)').append($(this));
+                        $prevBlock.find(">:first-child").append($module);
+                    } else {
+                        $module = $('<div class="module"><div class="grid50"><div class="col"></div><div class="col"></div></div></div>');
+                        $module.find('.col:first-child').append($(this));
+                    }
+                });
+                $block.remove();
+                //Tracking
+                $prevBlock.on('click', '.hentry', function () {
+                    var index = $(this).index() + 1;
+                    de.bild.events.publish('de.bild.mobile.clickTracking', [false, {
+                        webtrekk: {
+                            linkId: 'home-teaser-layout',
+                            customClickParameter: {
+                                26: '##CONTENTID##',
+                                5: 'click/teaser/' + index
+                            },
+                            trackOnNextPage: true
+                        }
+                    }]);
+                    // Tealium Event
+                    de.bild.events.publish('dataLayerEventTracking', ['click', {
+                        click_name: 'home-teaser-layout',
+                        ab_experiments_home_teaser: 'click/teaser/' + index
+                    }]);
+                });
+            },
+            C: function () {
+                var $elem = document.currentScript ? jQuery(document.currentScript) : jQuery('script').last();
+                if (!$elem.length) {
+                    return;
+                }
+                var $block = $elem.closest('section');
+                var $prevBlock = $block.prev();
+                $prevBlock.remove();
+                //Tracking
+                $block.on('click', '.hentry', function () {
+                    var index = $(this).index() + 1;
+                    de.bild.events.publish('de.bild.mobile.clickTracking', [false, {
+                        webtrekk: {
+                            linkId: 'home-teaser-layout',
+                            customClickParameter: {
+                                26: '##CONTENTID##',
+                                5: 'click/teaser/' + index
+                            },
+                            trackOnNextPage: true
+                        }
+                    }]);
+                    // Tealium Event
+                    de.bild.events.publish('dataLayerEventTracking', ['click', {
+                        click_name: 'home-teaser-layout',
+                        ab_experiments_home_teaser: 'click/teaser/' + index
+                    }]);
+                });
+            }
+        }
+    }
+    ,
+    themaFolgen: {
+        active: true,
+        props:  [0.5, 0.5],
+        method: 'domReady',
+        preCondition: function ()
+        {
+            return true;
+        }
+        ,
+        actions: {
+            A: function () {},
+            B: function ()
+            {
+                $('.com-follow').parent().hide();
+            }
+        }
+    }
+    ,
+    headerButton: {
+        active: false,
+        props: [0.8, 0.1, 0.1],
+        method: 'domReady',
+        preCondition: function () {
+            return true;
+        },
+        actions: {
+            A: function () {},
+            B: function () {
+                var storedVal = JSON.parse(window.localStorage.getItem('abTesting'));
+                var trackingValue = Object.keys(storedVal).reduce(function (val, key) {
+                    val += storedVal[key].name + '/' + storedVal[key].variante + '/';
+                    return val;
+                });
+                if (window.utag_data) {
+                    utag_data['abTesting'] = trackingValue;
+                } else {
+                    de.bild.events.subscribe('bodyAccessible', function () {
+                        if (window.utag_data) {
+                            utag_data['abTesting'] = trackingValue;
+                        }
+                    });
+                }
+                var cssText = '.btn--login,.btn--videos{background-color:transparent;border:0;color:#454545;font-weight:700;line-height:1.4;position:absolute;top:0;right:0;vertical-align:middle;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;padding:12px;text-decoration:none}.fonts-loaded .btn--login,.fonts-loaded .btn--videos{font-family:"Gotham XNarrow",Arial,Helvetica,Tahoma,sans-serif;font-size:16px;font-size:1rem}@media (min-width: 80.0625em){.fonts-loaded .btn--login,.fonts-loaded .btn--videos{font-size:18px;font-size:1.125rem}}.icon--login{fill:#454545;margin-left:.5em}.icon--videos{margin-left:.5em}';
+                $('head').append('<style>' + cssText + '</style>');
+                var $header = $('header.masthead');
+                if (!de.bild.user.isLoggedIn()) {
+                    $header.append('<a href="' + de.bild.env.don + '/www/li/' + de.bild.mobile.sso.getInstance().getLoginRedirectUrl() + '" class="btn--login">Login <svg class="icon--login" width="16" height="16" viewBox="0 0 512 512"><path d="M464 512h-416c-8.832 0-16-7.152-16-16v-256c0-8.848 7.168-16 16-16h48v-64c0-88.368 71.632-160 160-160s160 71.632 160 160v64h48c8.848 0 16 7.152 16 16v256c0 8.848-7.152 16-16 16zm-112-360c0-48.608-42.992-88-96-88s-96 39.392-96 88v72h192v-72z"/></svg></a>');
+                } else {
+                    $header.append('<a href="' + de.bild.env.meinKonto + '" class="btn--login">Profil<svg class="icon--login" width="20" height="20" viewBox="0 0 403 512"><path d="M402.286 401.428q0 34.286-20.857 54.143t-55.428 19.857h-249.714q-34.572 0-55.428-19.857t-20.857-54.143q0-15.143 1-29.572t4-31.143 7.572-31 12.285-27.857 17.715-23.143 24.428-15.286 31.857-5.714q2.572 0 12 6.143t21.285 13.715 30.857 13.714 38.143 6.143 38.143-6.143 30.857-13.714 21.286-13.714 12-6.143q17.428 0 31.857 5.714t24.428 15.285 17.714 23.143 12.286 27.857 7.572 31 4 31.143 1 29.572zm-91.429-255.142q0 45.428-32.143 77.572t-77.572 32.143-77.572-32.143-32.143-77.571 32.143-77.572 77.572-32.143 77.572 32.143 32.143 77.572z"/></svg></a>');
+                }
+                $header.find('a:last').on('click', function () {
+                    de.bild.events.publish('dataLayerEventTracking', ['click', {
+                        click_name: ' profil_video_button_sticky_header',
+                        ab_experiments_stickyheader: de.bild.user.isLoggedIn() ? 'profil' : 'login'
+                    }]);
+                });
+            },
+            C: function () {
+                if ($('body').hasClass('videopage')) {
+                    return;
+                }
+                var storedVal = JSON.parse(window.localStorage.getItem('abTesting'));
+                var trackingValue = Object.keys(storedVal).reduce(function (val, key) {
+                    val += storedVal[key].name + '/' + storedVal[key].variante + '/';
+                    return val;
+                });
+                if (window.utag_data) {
+                    utag_data['abTesting'] = trackingValue;
+                } else {
+                    de.bild.events.subscribe('bodyAccessible', function () {
+                        if (window.utag_data) {
+                            utag_data['abTesting'] = trackingValue;
+                        }
+                    });
+                }
+                var cssText = '.btn--login,.btn--videos{background-color:transparent;border:0;color:#454545;font-weight:700;line-height:1.4;position:absolute;top:0;right:0;vertical-align:middle;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;padding:12px;text-decoration:none}.fonts-loaded .btn--login,.fonts-loaded .btn--videos{font-family:"Gotham XNarrow",Arial,Helvetica,Tahoma,sans-serif;font-size:16px;font-size:1rem}@media (min-width: 80.0625em){.fonts-loaded .btn--login,.fonts-loaded .btn--videos{font-size:18px;font-size:1.125rem}}.icon--login{fill:#454545;margin-left:.5em}.icon--videos{margin-left:.5em}';
+                var $header = $('header.masthead');
+                $header.append('<a href="https://m.bild.de/video/startseite/bildchannel-home/video-home-15713248.bildMobile.html" class="btn--videos">Videos <svg class="icon--videos" width="24" height="24" viewBox="0 0 48 48"><rect width="48" height="48" fill="#454545"/><polygon points="33.07 24 16.93 10.1 16.93 37.9 33.07 24" fill="#fff"/></svg></a>');
+                $('head').append('<style>' + cssText + '</style>');
+                $header.find('a:last').on('click', function () {
+                    de.bild.events.publish('dataLayerEventTracking', ['click', {
+                        click_name: ' profil_video_button_sticky_header',
+                        ab_experiments_stickyheader: 'videos'
+                   }]);
+                });
+            }
+        }
+    },
+    votingRotation: {
+        active: true,
+        props: [0.25, 0.25, 0.25, 0.25],
+        method: 'domReady',
+        actions: {
+            A: function () {
+                jQuery(".voting-wrapper-2").hide().parent().parent(".element").hide();
+                jQuery(".voting-wrapper-3").hide().parent().parent(".element").hide();
+                jQuery(".voting-wrapper-4").hide().parent().parent(".element").hide();
+                jQuery(".voting-wrapper-1").show().parent().parent(".element").show();
+            },
+            B: function () {
+                jQuery(".voting-wrapper-1").hide().parent().parent(".element").hide();
+                jQuery(".voting-wrapper-3").hide().parent().parent(".element").hide();
+                jQuery(".voting-wrapper-4").hide().parent().parent(".element").hide();
+                jQuery(".voting-wrapper-2").show().parent().parent(".element").show();
+            },
+            C: function () {
+                jQuery(".voting-wrapper-1").hide().parent().parent(".element").hide();
+                jQuery(".voting-wrapper-2").hide().parent().parent(".element").hide();
+                jQuery(".voting-wrapper-4").hide().parent().parent(".element").hide();
+                jQuery(".voting-wrapper-3").show().parent().parent(".element").show();
+            },
+            D: function () {
+                jQuery(".voting-wrapper-1").hide().parent().parent(".element").hide();
+                jQuery(".voting-wrapper-2").hide().parent().parent(".element").hide();
+                jQuery(".voting-wrapper-3").hide().parent().parent(".element").hide();
+                jQuery(".voting-wrapper-4").show().parent().parent(".element").show();
+            }
+        }
+    }
+};
+if (de.bild.events) {
+    de.bild.events.publish('de.bild.abtesting.experiments', [de.bild.abTesting.experiments]);
+}</script>
+            <script type="text/javascript">
+		de.bild.cmsKonfig = {
+		system : {
+			ad_smart_site_id : '10045',
+			navigation_navigation2014_Schalter : 'on',
+			sportliveBox_betUrl : 'https://a.bildstatic.de/betdata/bet.json',
+			zaehlpixel_tealium_amp_profile : '//tags.tiqcdn.com/utag/axelspringer/bild/prod/utag.js',
+			zaehlpixel_tealium_url : '//tags.tiqcdn.com/utag/axelspringer/bild/prod/utag.js'
+		},
+		hierarchical : {
+			community2008_enableCommunity : 'off',
+			community2008_notifications_enabled : 'off',
+			html_CMP_status : 'on',
+			html_IFrame_allowedOrigins : 'https://www-staging.airhelp.com,https://m.sport.bild.de,https://m.bild.de,https://m.bild.de/staticdata/,https://www.bild.de/staticdata/,https://interactive-readerui.la.welt.de,https://bildvodde-vh.akamaihd.net/,https://d3hvhuzn2iw70p.cloudfront.net,https://twitter.com,https://asbs.bild.de',
+			html_mobilweiche_status : 'off',
+			html_Partner_Head_CSS : '44144570',
+			html_Partner_Head_CSS_url:'https://m.bild.de/code/partner,44144570.52-47780104.6-47780110.21-47780118.1-47780088.2-69724516.4.bild.css',
+			html_rotierender_teaser_ViewportPercent : '75',
+			navigation_navigation2014_Schalter : 'on',
+			SportLiveBox_Wetten_TimeOut : '120',
+			video_Bitmovin_Analytics : 'on',
+			video_Bitmovin_AnalyticsKey : '6ac13d59-8b42-4fb3-981b-d085a791b158',
+			video_Bitmovin_ApiKey : '5c9d5f24-3404-4580-90f8-f0bd89a5c476',
+			video_Bitmovin_CmpVendorId : '5f5a19f3a03cb64ce5c13262',
+			video_Bitmovin_MutedAutoplay_ApiKey : 'f66008c7-b647-4de7-a553-b1ca9ae4512f',
+			video_mutedAutoPlayWidget : 'on',
+			video_mutedAutoPlayWiFiCheck : 'on',
+			zaehlpixel_dataLayer_tealiumStatus : 'on',
+			zaehlpixel_webtrekk_scrollingtiefe_status : 'on'
+		},
+		clubs : {
+			bildplus : 'BDE1000351',
+			buli : 'BDE1000357',
+			pdf : 'BDE1000354',
+			bildsmart : 'BDE1000961',
+			fubi : 'BDE1001113',
+			spobi : 'BDE1001207'
+		},
+		a : Object.freeze({
+			a : 0,
+			b : Object.freeze({
+					a : '42925672',
+					b : 'https://m.bild.de/wa/ll/bild-de/bildplus-42925672.bildMobile.html',
+					c : '42925678',
+					d : 'https://m.bild.de/wa/ll/bild-de/angemeldet-42925678.bildMobile.html',
+					e : '42925516',
+					f : 'https://m.bild.de/wa/ll/bild-de/unangemeldet-42925516.bildMobile.html',
+					g : '54578330',
+					h : 'https://m.bild.de/wa/ll/bild-de/privater-modus-angemeldet-54578330.bildMobile.html',
+					i : '54578900',
+					j : 'https://m.bild.de/wa/ll/bild-de/privater-modus-unangemeldet-54578900.bildMobile.html'
+			}),
+			c : '43645300;43645254;42925650;42925604;42925636;42925628;42925622;42925602;42925618;42925614;42925608',
+			d : 2
+		}),
+		additional : {
+			docType : 'BTOSeite',
+			isHome : false,
+			isRebrush : false
+		}
+	}
+		if (de.bild.events)
+		{
+			de.bild.events.publish('cmsKonfig/loaded', [de.bild.cmsKonfig]);
+		}
+	</script>
+	<script type="text/javascript">
+de.bild.cmsData = {};
+	
+de.bild.cmsData.pageTracking = {
+  "contentId" : "tv/body/mediathek/startseite",
+  "wapContentId" : "body/tv/mediathek/startseite",
+  "subChannel1" : "tv",
+  "subChannel2" : "mediathek",
+  "subChannel3" : "startseite",
+  "documentId" : "77204148",
+  "documentType" : "BTOSeite",
+  "documentPath" : "/tv/mediathek/startseite",
+  "plainDocumentType" : "BTOSeite",
+  "publicationDate" : "2021-08-13 12:37",
+  "ivw2Code" : "tv_mediathek/section",
+  "liveArticle" : false,
+  "topicPage" : false,
+  "errorPage" : false,
+  "keywords" : "Hier spricht das Volk,livestream",
+  "adStatus" : "off/on/news///_index/",
+  "permanenterInhalt" : "0",
+  "clientName" : "mobile",
+  "premium" : false,
+  "premiumVisibility" : "frei",
+  "premiumSiteInformation" : "frei",
+  "abTestOn" : false,
+  "abTestName" : "ConversionLayer",
+  "abTestDescription" : "Layer",
+  "buyProductDone" : false,
+  "buyProductStatus" : "",
+  "buyParameter" : "",
+  "voucherParameter" : "",
+  "campaignOn" : true,
+  "systemHome" : false,
+  "embedIsMobile" : false
+};
+			
+de.bild.cmsData.mappingConfig = {
+	"webtrekk" : {
+  "sendToWebtrekkOn" : false,
+  "testWebtrekkTrackId" : "866730297312295",
+  "trackDomain" : "pixel.bild.de",
+  "trackId" : "850416555242498",
+  "domain" : "Regexp:\\m.bild\\.de$",
+  "mediaCode" : "wtmc;bpmc;bpemc",
+  "mediaCodeCookie" : "sid",
+  "cookie" : "1",
+  "pixelSampling" : "10",
+  "heatmapOn" : false,
+  "onNetOffNetOn" : true,
+  "legacyWebtrekkOn" : false
+},
+	"ivw2" : {
+  "sendToIvw2On" : false,
+  "ivw2ServerPrefix" : "",
+  "contentCode" : "002"
+}};
+		
+var utag_data = {
+  "page_ad_status" : "off/on/news///_index/",
+  "page_channel1" : "tv",
+  "page_channel2" : "mediathek",
+  "page_channel3" : "startseite",
+  "page_document_type" : "BTOSeite",
+  "page_cms_path" : "/tv/mediathek/startseite",
+  "page_id" : "77204148",
+  "page_ivw_code" : "tv_mediathek/section",
+  "is_page_live_article" : "0",
+  "page_name" : "tv/body/mediathek/startseite",
+  "page_publication_date" : "2021-08-13 12:37",
+  "is_status_premium" : "0",
+  "is_status_premium_visibility" : "1",
+  "is_user_ab_test" : "1",
+  "user_ab_name" : "ConversionLayer",
+  "user_ab_description" : "Layer",
+  "context_id" : "mobile",
+  "embed_is_mobile" : false,
+  "page_has_video" : false,
+  "page_has_video_plus" : false
+};
+		</script>
+<script async type="text/javascript" src="https://resources-production.la.welt.de/loader/la-loader-bild.js"></script><script type="text/javascript" src="https://rosetta.prod.ps.bild.de/ps-rosetta.js" async=""></script><script>
+            
+            utag_data["customer_pcp_sso_id"] = de.bild.user.getSSOID();
+            utag_data["customer_pcp_clubs"] = de.bild.user.getUserClubs().join(',');
+            utag_data["customer_login_aggregated"] = de.bild.user.getTrackingInfo();
+            utag_data["customer_login_bool"] = de.bild.user.isLoggedIn();
+            
+                    utag_data["customer_adblock"] = de.bild.user.getAbDataString();
+                </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://m.bild.de/tv/mediathek/livestream/startseite-77204148.bildMobile.html#organization",
+        "url": "https://m.bild.de/tv/mediathek/livestream/startseite-77204148.bildMobile.html",
+        "name": "BILD",
+            "logo": {
+                "@type": "ImageObject",
+                "url":  "https://bilder.bild.de/fotos/bild-logo-35166394/Bild/45.bild.png",
+                "width": "103",
+                "height": "103"
+            },
+        
+       "sameAs": [
+       
+       ]
+       
+    }
+   </script>
+
+<meta property="article:content_tier" content="free"/>
+        <script async crossorigin="anonymous"
+src="//player.h-cdn.com/loader.js?customer=bild"></script>
+<link rel="preload" href="//code.bildstatic.de/7.9.6-cats-release--21.09/min/targets/bild/mobile/assets/fonts/gotham/B6699C503D96A9BC1.woff2" as="font" type="font/woff2" crossorigin>
+        <script type="text/javascript">
+            window._taboola = window._taboola || [];
+            
+				_taboola.push({home:'auto'});
+			
+            !function (e, f, u, i) {
+                if (!document.getElementById(i)){
+                    e.async = 1;
+                    e.src = u;
+                    e.id = i;
+                    f.parentNode.insertBefore(e, f);
+                }
+            }(document.createElement('script'), document.getElementsByTagName('script')[0], '//cdn.taboola.com/libtrc/bilddemw/loader.js', 'tb_loader_script');
+            if(window.performance && typeof window.performance.mark == 'function'){window.performance.mark('tbl_ic');}
+            de.bild.events.subscribe('bodyComplete', function(){
+                window._taboola = window._taboola || [];
+                _taboola.push({flush:true});
+            });
+		</script>
+	<meta name="google-site-verification" content="kdMOcNaz8tQTgUp2CJHJQqnFA4WxcPPDIVAX4pTs9V4" /></head>
+    <body>
+    <script>
+         de.bild.events.publish("bodyAccessible");
+    </script>
+    <div class="hidden">
+    <script src="https://script.ioam.de/iam.js"></script>
+				<!-- IVW VERSION="2.0" -->
+			<script>
+				if (!window.redirectInPlace && ( (typeof(doTracking) == "undefined") || doTracking() ) ) {
+					var iam_position_top = 10;
+					var iam_position_left = 100;
+					var iam_zindex = 10000000000;
+
+					var iam_fadeout_flash = false;
+					var iam_fadeout_iframe = false;
+					var iam_fadeout_form = false;
+
+					function cC(n,e){for(var t=n+"=",r=decodeURIComponent(document.cookie).split(";"),o=0;o<r.length;o++){for(var i=r[o];" "==i.charAt(0);)i=i.substring(1);if(0==i.indexOf(t))return i.substring(t.length,i.length).indexOf(e)>-1}return!1}
+					var co0 = cC("__utag_cmp_vendor_list","adobe_analytics") || cC("cmp_cv_list","adobe_analytics") ? "con":"no-con";
+					var co1 = de.bild.cmsKonfig.clubs ? cC("vauth",de.bild.cmsKonfig.clubs.bildplus) ? "sub":"no-sub":"no-sub";
+					var iam_data = {
+						"st":"mobbild",
+						"cp":"tv_mediathek/section",
+						"sv":"mo",
+						"co": co0+"/"+co1,
+						"contentCode":"002",
+                        "sc":"yes"
+					};
+                    
+                    		window.iom.h(iam_data, 2);
+						
+				}
+			</script>
+		<script>
+        (function(a,b,c,d){
+            if ( !window.redirectInPlace ) {
+                a='//tags.tiqcdn.com/utag/axelspringer/bild/prod/utag.js';
+                b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+                a=b.getElementsByTagName(c)[0];
+                a && a.parentNode.insertBefore(d,a);
+                d.onload = function(){de.bild.events.publish('utag/loaded');}
+            }
+        })();
+    </script>
+<script>
+
+        var remCallback = de.bild.tracking.rem ? de.bild.tracking.rem.remCallback : function(){};
+
+        var rem = new Object();
+        rem.shopid = { name:"shopid", value:"bdep"};
+        rem.action = { name:"action", value:"pageview"};
+        rem.origin = { name:"origin", value:"mobile"};
+        rem.contentid = { name:"contentid", value:"body/tv/mediathek/startseite"};
+        rem.coremediaid = { name:"coremediaid", value:"77204148"};
+        rem.doctype = { name:"doctype", value:"BTOSeite"};
+        rem.adstate = { name:"adstate", value:"off/on/news///_index/"};
+        rem.accesstype = { name:"accesstype", value:"free"};
+        rem.visibility = { name:"visibility", value:"visible"};
+        rem.channel = { name:"channel", value:"tv"};
+        rem.subchannel = { name:"subchannel", value:"mediathek"};
+        rem.subsubchannel = { name:"subsubchannel", value:"startseite"};
+        rem.heading = { name:"heading", value:""};
+        rem.kicker = { name:"kicker", value:""};
+        rem.kid = { name:"kid", value:""};
+        rem.conversion = { name:"conversion", value:"false"};
+
+        
+
+
+        //es dürfen keine leeren Parameter an REM übergeben werden.
+        function evaluate(remObj)
+        {
+            var remparams = new Array();
+
+            for(var propertyName in remObj)
+            {
+                if (remObj[propertyName].value)
+                {
+                    remparams.push(remObj[propertyName]);
+                }
+            }
+            return remparams;
+        }
+
+        function triggerRemRequest() {
+            if (typeof(rem_client) != "undefined")
+            {
+                rem_client.request(evaluate(rem),["remCallback"]);
+                
+                if(rem.conversion.value === "true"){
+                    de.bild.utils.storage.set("contentid",rem.contentid.value,true);
+                    de.bild.utils.storage.set("coremediaid",rem.coremediaid.value,true);
+                }
+            }
+
+        }
+    </script>
+
+    <script>
+        (function (scriptSrc, callback) {
+            var headTag = document.getElementsByTagName('head')[0];
+            var scriptTag = document.createElement('script');
+            scriptTag.src = scriptSrc;
+            scriptTag.async = true;
+            scriptTag.onload = callback;
+            scriptTag.onreadystatechange = function() {
+                if (this.readyState == 'complete') {
+                    callback();
+                }
+            }
+            headTag.appendChild(scriptTag);
+        })("https://rem-track.bild.de/rem-1.1/static/remclient/1.0/remclient.js", triggerRemRequest);
+    </script>
+<script>
+        //gibt es einen neuen Status?
+        de.bild.events.subscribe('autoLoadFinished', triggerREMRequest);
+        function triggerREMRequest(){
+        
+            if(rem.accesstype.value !== "free"){
+                de.bild.events.unsubscribe('autoLoadFinished', triggerREMRequest);
+                var remEnd = new Object();
+                remEnd.shopid = { name:"shopid", value:"bdep"};
+                remEnd.action = { name:"action", value:"pagecomplete"};
+                remEnd.origin = { name:"origin", value:"mobile"};
+                remEnd.contentid = { name:"contentid", value:"body/tv/mediathek/startseite"};
+                remEnd.coremediaid = { name:"coremediaid", value:"77204148"};
+                remEnd.accesstype = rem.accesstype;
+                remEnd.visibility = { name:"visibility", value:"visible"};
+                remEnd.conversion = { name:"conversion", value:"true"};
+
+
+                if (typeof(rem_client) != "undefined"){
+                    rem_client.request(evaluate(remEnd),['remCallback']);
+                    de.bild.utils.storage.set("contentid", remEnd.contentid.value, true);
+                    de.bild.utils.storage.set("coremediaid", remEnd.coremediaid.value, true);
+                }
+            }
+        
+    }
+    </script>
+<script>
+    </script>
+</div><div id="outerWrapper">
+    <!-- NO JS Warning Message -->
+    <noscript class="warning">
+        <p>&nbsp;</p>
+    </noscript>
+<div id="innerWrapper"><script>
+            de.bild.events.publish('initModule',['navigation',{el:'.masthead', trackingEnabled:true}]);
+        </script>
+<div class="breakingnews" id="bnTicker" data-tr-doc-type="dt=BreakingNews"></div>
+        <!-- Breaking News -->
+    <script>
+                    de.bild.events.publish('initModule', ['breakingnews', {el:'#bnTicker', url: '//a.bildstatic.de/breakingnews/index.json'}]);
+                </script>
+            <div class="faux">
+                        <div class="content s12 style-schwarz style-videowelt ">
+                            <section>
+    <div data-skinning="tr-videobackground" data-tb-region="tr-videobackground">
+    </div>
+    </section>
+    <div data-skinning="0001-aaa-aufmacher-super-a-spacer" data-tb-region="0001-aaa-aufmacher-super-a-spacer">
+    <section>
+            <div class="lead">
+                <div class="misc">
+           <div style="height: 0px;">&nbsp;</div>
+</div>
+    </div>
+      </section>
+    </div>
+<div data-skinning="02-banner-oben" data-tb-region="02-banner-oben">
+    </div>
+<div data-skinning="stoerer-mobil-oben" data-tb-region="stoerer-mobil-oben">
+    <section>
+            <div class="lead">
+                <div data-tb-region-item-premium="" ></div>
+                        <div  class="hentry tsr10"
+                             
+                             data-tb-region-item=""
+                             >
+                           <a href="/unterhaltung/tv/news/es-ist-ganz-einfach-so-finden-sie-bild-auf-ihrem-fernseher-77300804.bildMobile.html"
+                                
+                                        data-tb-kicker="Satellit, Kabel oder IPTV"
+                                    
+                               data-tb-title="So finden Sie BILD  auf Ihrem Fernseher"
+                                rel="bookmark">
+                                <hh3></hh3>
+                          </a>
+                </div>
+        </div>
+  </section>
+    </div>
+<div class="vel">
+  <script>
+                    window._videoJSON = window._videoJSON || [];
+                    window._videoJSON[77413478] = 
+
+{
+    "id": "77413478",
+    "premium" : false,
+    "title": "Livestream ",
+    "headline": "BILD",
+    "description": "Herzlich Willkommen bei BILD! BILD ist Deutschlands neuer TV-Sender f&#252;r aktuelle Live-News und Information. ",
+    "embed": false,
+    "autoplay": false,
+    "tracking": true,
+    "loop": false,
+    "durationSec":-2147483648,
+    "muted": false,
+    "360video": false,
+    "buliHighlight": false,
+    "hdDefault": false,
+    "hdAdaptive": true,
+    "copyright": "BILD",
+    "canonicalUrl": "https://m.bild.de/video/clip/video/bild-tv-livestream-deutschlands-news-sender-77413478.bildMobile.html",
+    "relatedVideos": "https://m.bild.de/video/clip/video/bild-tv-livestream-deutschlands-news-sender-77413478,jsonUrl=true,view=videoChannelXml.bildMobile.html",
+    "addClass": "landscape",
+    "poster": "https://bilder.bild.de/fotos/image-70466543c4f97354acab8c7ae2f98e73-77467470/Bild/3.bild.png",
+"clipList":[{"type":"main","srces":[{"src":"https://hds.ak.token.bild.de/77413478,delivery=hls.m3u8","type":"application/x-mpegURL"}]}],"plugins":[{"name":"Endscreen","params":{"more":true,"videoHomeUrl":"https://m.bild.de/video/startseite/bildchannel-home/video-home-15713248.bildMobile.html","revolverDelay":5}},{"name":"Controls","params":{}},{"name":"Tracking","params":{"keywords":["Video","livestream"],"ivw2":{"contentCode":"002","ivw2Code":"bild-tv_bild-tv/video"},"webtrekk":{"pubDate":"2021-08-22 07:28","description":"BILD - Livestream /bil/f","premium":"frei","playInline":false,"docPath":"flashvideo/video/clip/bild-tv/2021/08/17/bild-livestream-611bde3b81b0604d119b363a/bild-tv-livestream-deutschlands-news-sender","adType":"nopreroll","adKeyword":"video"},"ivw":{"ivwCode":"20002"}}},{"name":"Mutedautoplay","params":{"status":true}},{"name":"StickyPlayWidget","params":{"muted":false,"status":true}}],"bookmarks":[{"type":"facebook","href":"sadasdasdas"},{"type":"twitter","href":"dewwewerewr"}]
+}
+;
+                </script>
+            <div id="video_71471" class="mediaplayer" data-theme="widget" data-media="/video/clip/video/bild-tv-livestream-deutschlands-news-sender-77413478,adpos=teaser,autoplay=false,contentContextId=77204148,jsBuliPlaylistPlay=false,showAds=true,showPostBumper=true,showPreBumper=true,view=json,width=100.bildMobile.html" data-ration="16/9">
+                <img class="poster" width="1280" height="720"
+                       src="https://bilder.bild.de/fotos/image-70466543c4f97354acab8c7ae2f98e73-77467470/Bild/3.bild.png" />
+            </div>
+  <script>
+                    de.bild.events.publish('initModule', ['mediaPlayer', {el:'#video_71471'}]);
+                </script>
+
+        </h4>
+
+        <div class="credit">
+                Quelle:  BILD</div>
+    </div>
+    <section>
+
+    <script>
+        if(de.bild.events){
+            de.bild.events.publish('bodyComplete');
+        }
+    </script>
+</body>
+    </html>

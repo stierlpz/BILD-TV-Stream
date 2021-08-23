@@ -1,0 +1,52 @@
+.pb-sidebar-frame-container {
+  position: fixed;
+  top: 0;
+  background-color: transparent;
+  width: 380px;
+  height: 100%;
+  right: -380px;
+  transition: right 0.5s;
+  transition-timing-function: ease;
+  z-index: 2147483647; }
+
+.pb-sidebar-frame-container > iframe {
+  width: 100%;
+  height: 100%;
+  border-width: 0;
+  border-style: initial !important;
+  border-color: initial !important;
+  border-image: initial !important; }
+
+.pb-sidebar-frame-container.in {
+  right: 0; }
+
+.pb-sidebar-frame-container.out {
+  right: -380px; }
+
+.pb-notification-frame-container {
+  position: fixed;
+  top: 0;
+  background-color: transparent;
+  width: 363px;
+  height: 78px;
+  right: -370px;
+  transition: right 0.5s;
+  transition-timing-function: ease;
+  z-index: 2147483647; }
+
+.pb-notification-frame-container > iframe {
+  width: 100%;
+  height: 100%;
+  border-width: 0;
+  border-style: initial !important;
+  border-color: initial !important;
+  border-image: initial !important; }
+
+.pb-notification-frame-container.in {
+  right: 7px; }
+
+.pb-notification-frame-container.out {
+  right: -370px; }
+
+.pb-notification-frame-container.cop {
+  right: -331px; }
